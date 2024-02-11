@@ -1,7 +1,9 @@
+import styles from './Header.module.scss';
+
 const Header = () => {
     return (
-        <header className="site-header">
-            <h1>Projects Engine</h1>
+        <header className={styles.siteHeader}>
+            <h1 className={styles.siteHeader__title}>Projects Engine</h1>
         </header>
     )
 }

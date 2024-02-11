@@ -6,8 +6,9 @@ import styles from "./page.module.scss";
 
 export default function Home() {
   return (
+    <>
+    <Header />
     <main className={styles.main}>
-      <Header />
       <div className={styles.description}>
         <p>
           This is my store and I will name it&nbsp;
@@ -84,5 +85,6 @@ export default function Home() {
         </a>
       </div>
     </main>
+    </>
   );
 }

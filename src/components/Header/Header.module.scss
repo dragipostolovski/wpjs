@@ -1,0 +1,10 @@
+.siteHeader {
+    background: rgba(180, 185, 188, .1);
+    padding: 10px 20px;
+    border: 1px solid rgba(131, 134, 135, .15);
+    border-radius: 5px;
+
+    &__title {
+        color: #222;
+    }
+}
