@@ -1,13 +1,17 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+
+import Header from "@/components/Header";
+
+import styles from "./page.module.scss";
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Header />
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
+          This is my store and I will name it&nbsp;
+          <code className={styles.code}>Projects Engine</code>
         </p>
         <div>
           <a
